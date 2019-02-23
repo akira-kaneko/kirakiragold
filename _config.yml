@@ -1,9 +1,8 @@
 # Site settings
-title_left    : "Think"
-title_right   : "space" # default: ""
-description   : "Minimalist Jekyll theme for technical writing blog."
-keywords      : "Jekyll, theme, free, download, SEO, blog, web, minimalist, thinkspace"
-url           : https://heiswayi.github.io/thinkspace # site url
+title_left    : "kirakira"
+title_right   : "gold" # default: ""
+description   : "It is a portfolio site of Akira Kaneko of web developer"
+keywords      : "ブログ, webプログラマー, webエンジニア"
 baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
 cover         : "" # image uri like logo/cover image for site seo
 
@@ -28,7 +27,7 @@ sass:
 
 # Author settings
 author:
-  name     : "John Doe"
+  name     : "Akira Kaneko"
 
 plugins:
   - jekyll-sitemap
@@ -43,3 +42,26 @@ navbar:
     title: Blog
 
 exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md", "script"]
+
+old_posts:
+  - title: Lumenで複数のDBにアクセスする方法
+    date : 2017-08-29
+    url  : https://qiita.com/okenak/items/e1d59831a243d890e29e
+    display_year : true
+  - title: IDCFクラウドでホスト名を変更する方法
+    date : 2017-07-20
+    url  : https://qiita.com/okenak/items/90ba238f20ca28dd58ab
+  - title: Gitで過去のコミットを修正して履歴をきれいに保存する方法
+    date : 2016-06-15
+    url  : https://qiita.com/a-kane/items/6f1d02ebc39e3c97dd4b
+    display_year : true
+  - title: Monacaを業務で1年使っての感想
+    date : 2016-12-19
+    url  : https://qiita.com/a-kane/items/bd57983358838a0b0850
+  - title: CasperJSでブラウザ操作を自動化しよう
+    date : 2016-12-13
+    url  : https://qiita.com/a-kane/items/a5d4b8345bc9c5d2c15c
+  - title: phalcon-devtoolsを使用して簡易掲示板を作成する
+    date : 2015-12-10
+    url  : https://qiita.com/a-kane/items/36a9e96f2cce079b9742
+    display_year : true
