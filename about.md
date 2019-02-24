@@ -10,7 +10,7 @@ Backend Engineer (around 30 age)
 
 # profile
 
-| year | jobdescription |
+| year | job description |
 | ---- | ---- |
 | 2017 ~ 2019 | smartphone game programmer |
 | 2015 ~ 2017 | web service programmer |
